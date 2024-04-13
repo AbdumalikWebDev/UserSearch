@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="https://avatars.dzeninfra.ru/get-zen_doc/1811900/pub_5db5e04dbd639600ae90931b_5dbdf10b9515ee00b1fbbc4e/scale_1200">
+    <title>Devfinder</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+  </head>
+  <body class="">
+    <div class="searchbox">
+      <nav class="searchbox-top">
+        <h2 class="devfinder">devfinder</h2>
+        <div class="theme-button">
+          DARK <i class="fa-solid fa-moon moon-icon"></i>
+        </div>
+        <div class="search-input">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input
+            type="search"
+            placeholder="Search Github username..."
+            id="input_search"
+          />
+          <button class="search-btn">Search</button>
+          <p class="no-results">No Results</p>
+        </div>
+      </nav>
+      <section class="searchbox-bottom">
+        <div class="user-profile">
+          <div class="user-profile-top">
+            <div class="user-profile-top-left">
+              <img src="https://www.pngall.com/wp-content/uploads/5/User-Profile-PNG-High-Quality-Image.png" alt="" id="user-image">
+            </div>
+            <div class="user-profile-top-right">
+              <h2 id="user">The Octocat</h2>
+              <p id="date">Joined 25 Jan 2011</p>
+              <div class="username">
+                <a href="#" id="username">@actocat</a>
+              </div>
+            </div>
+          </div>
+          <div class="user-profile-bottom">
+            <div class="user-profile-bottom-left"></div>
+            <div class="user-profile-bottom-right">
+              <div class="user-bio">This profile has no bio</div>
+              <div class="followers-box">
+                <div class="followers-box_col1">
+                  <p>Repos</p>
+                  <h4 class="repos">10</h4>
+                </div>
+                <div class="followers-box_col2">
+                  <p>Followers</p>
+                  <h4 class="followers">9999</h4>
+                </div>
+                <div class="followers-box_col3">
+                  <p>Following</p>
+                  <h4 class="following">31</h4>
+                </div>
+              </div>
+              <div class="user-info">
+                <div class="user-info_row1">
+                  <a href="#" class="location">
+                    <i class="fa-solid fa-location-dot"></i> San Francisco
+                  </a>
+                  <a href="#" class="blog fontsize14">
+                    <i class="fa-solid fa-link"></i> https://github.blog
+                  </a>
+                </div>
+                <div class="user-info_row2">
+                  <a href="#" class="not-available twitter">
+                    <i class="fa-brands fa-twitter"></i> Not Available
+                  </a>
+                  <a href="#" class="github-username">
+                    <i class="fa-solid fa-building"></i> @github
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="./js/main.js"></script>
+    <script src="./js/themes.js"></script>
+  </body>
+</html>

@@ -1,0 +1,165 @@
+@media only screen and (max-width: 576px) {
+  .no-results {
+    font-size: 14px;
+  }
+  .user-info {
+    display: flex;
+    flex-direction: column !important;
+    .user-info_row1,
+    .user-info_row2 {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  .no-results {
+    font-size: 14px;
+  }
+  .searchbox-bottom {
+    padding: 5px !important;
+    padding-bottom: 0 !important;
+  }
+  .search-input {
+    padding-left: 10px !important;
+    #input_search {
+      padding-left: 10px !important;
+      font-size: 13px !important;
+    }
+  }
+  #date {
+    font-size: 12px !important;
+  }
+  .user-profile-top-left {
+    padding: 0 !important;
+    padding-right: 15px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    #user-image {
+      width: 80px !important;
+      height: 80px !important;
+    }
+  }
+  .user-profile-top-right {
+    width: fit-content !important;
+    .username {
+      width: 80% !important;
+      a {
+        line-height: 100% !important;
+      }
+    }
+    #user {
+      font-size: 1rem !important;
+      width: fit-content !important;
+    }
+    #date {
+      width: fit-content !important;
+      font-size: 13px !important;
+    }
+  }
+  .followers-box_col1,
+  .followers-box_col2,
+  .followers-box_col3 {
+    p {
+      font-size: 12px !important;
+    }
+    h4 {
+      font-size: 1rem !important;
+    }
+  }
+  .user-profile-bottom-right {
+    padding: 0 !important;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .no-results {
+    font-size: 12px;
+    top: -10px;
+  }
+  .searchbox {
+    padding-top: 20px;
+    width: 90% !important;
+  }
+  .searchbox-top {
+    .devfinder {
+      font-size: 26px !important;
+      height: fit-content;
+    }
+  }
+  .search-input {
+    padding-left: 10px !important;
+
+    .search-icon {
+      font-size: 20px;
+    }
+    #input_search {
+      font-size: 12px;
+      padding-left: 10px;
+    }
+    .search-btn {
+      padding: 10px 15px !important;
+    }
+  }
+  .searchbox-bottom {
+    padding: 20px !important;
+  }
+  .user-profile {
+    padding: 0 !important;
+    .user-profile-top-left {
+      padding: 0 !important;
+      padding-right: 15px !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      svg {
+        width: 70px;
+        height: 70px;
+      }
+    }
+    .user-profile-top-right {
+      width: fit-content !important;
+      .username {
+        width: 80% !important;
+        a {
+          line-height: 100% !important;
+          font-size: 13px !important;
+        }
+      }
+      #user {
+        font-size: 1rem !important;
+        width: fit-content !important;
+      }
+      #date {
+        width: fit-content !important;
+        font-size: 13px !important;
+      }
+    }
+    .user-profile-bottom {
+      height: 100% !important;
+    }
+    .user-bio {
+      font-size: 14px !important;
+    }
+  }
+  .user-info a {
+    font-size: 12px !important;
+    text-wrap: wrap !important;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .user-profile {
+    padding: 15px 10px !important;
+  }
+  .followers-box {
+    width: 98% !important;
+  }
+  .searchbox-bottom {
+    padding: 0px !important;
+  }
+}
+@media only screen and (max-width: 250px) {
+  body * {
+    display: none !important;
+  }
+}

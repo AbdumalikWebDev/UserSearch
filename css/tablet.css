@@ -1,0 +1,49 @@
+@media only screen and (max-width:768px) {
+    body {
+        height: 100%;
+        align-items: start;
+    }
+    .no-results {
+        top: -12px;
+        left: 10px;
+        font-weight: 800;
+    }
+    .searchbox {
+        width: 80%;
+        height: fit-content;
+        margin: 0 auto;
+    }
+    #input_search {
+        max-width: 70%;
+        width: 70% !important;
+        padding-left: 0 !important;
+    }
+
+    .user-profile-top {
+        margin-bottom: 20px;
+    }
+    #date {
+        order: 1;
+        width: 100%;
+    }
+    #user {
+        width: 300px;
+    }
+    .username {
+        margin: 0 !important;
+    }
+    .followers-box {
+        justify-content: space-between;
+    }
+    .followers-box_col1,
+    .followers-box_col2,
+    .followers-box_col3 {
+        margin: 0 !important;
+    }
+    .user-profile-bottom-left {
+        width: 0 !important; 
+    }
+    .user-profile-bottom-right {
+        width: 100% !important;
+    }
+}
