@@ -18,9 +18,9 @@ function userInfo(user) {
   const githubUsername = document.querySelector(".github-username");
   
   userImage.setAttribute("src", `${user.avatar_url}`);
-  userNickname.textContent = `${user.login}`;
+  userNickname.textContent = `${user.name}`;
   date.innerHTML = `Joined ${new Date(user.created_at).toDateString()}`;
-  username.textContent = `${user.login}`;
+  username.textContent = `@${user.login}`;
   userBio.textContent = user.bio ? `${user.bio}` : "This profile has no bio";
   repos.textContent = `${user.public_repos}`;
   followers.textContent = `${user.followers}`;
